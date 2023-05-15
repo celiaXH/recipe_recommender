@@ -4,7 +4,11 @@
 * Scraped over 4000 recipes from [All Recipes](allrecipes.com) and [Jamie Oliver](jamieoliver.com) using python and beautiful soup.
 * Parsed recipe ingredients and created word embeddings using Word2Vec and TF-IDF.
 * Created a recipe recommendation system using cosine similarity to measure Euclidean distance between the word embeddings of recipe ingredients.
-* Built a client-facing API using flask, and a deployed an app with Streamlit.
+* Built a client-facing API using flask, and a deployed an app with Streamlit
+![Alt text](https://github.com/celiaXH/recipe_recommender/blob/main/input/workflow.png?raw=true)
+
+
+
 ## Code 
 **Python Version:** 3.8 
 **Packages:** pandas, numpy, sklearn, gensim, matplotlib, seaborn, beautifulsoup, flask, streamlit, json, pickle  
