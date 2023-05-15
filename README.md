@@ -1,4 +1,5 @@
 # Recipe Recommendation System
+[Demo app](https://celiaxh-demoapp-streamlit-app-5qhwmh.streamlit.app/)
 ## Project Overview
 * Created a tool that recommends recipes based on ingredients inputted to help people find what to cook.
 * Scraped over 4000 recipes from [All Recipes](allrecipes.com) and [Jamie Oliver](jamieoliver.com) using python and beautiful soup.
@@ -6,8 +7,6 @@
 * Created a recipe recommendation system using cosine similarity to measure Euclidean distance between the word embeddings of recipe ingredients.
 * Built a client-facing API using flask, and a deployed an app with Streamlit
 ![Alt text](https://github.com/celiaXH/recipe_recommender/blob/main/input/workflow.png?raw=true)
-
-
 
 ## Code 
 **Python Version:** 3.8 
